@@ -1,0 +1,20 @@
+dbt_project:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-3d4b5384-3296.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/b78fdc88d8315292
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-3d4b5384-3296.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/b78fdc88d8315292
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+  target: dev
